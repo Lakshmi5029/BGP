@@ -1,4 +1,4 @@
-@cogizant
+@cognizant
 Feature: Form Submission Section
 
   Background:
@@ -7,7 +7,7 @@ Feature: Form Submission Section
       | User_Name | public     |
       | Password  | Let$BeC001 |
 
-  @form
+  @form @AC2
   Scenario:Submit and Review all the forms in MRA
     Given BGP login page is displayed
     When user login to BGP

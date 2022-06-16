@@ -1,5 +1,5 @@
 @eligibility
-@cogizant
+@cognizant
 Feature: Eligibility Section
 
   Background:
@@ -25,7 +25,7 @@ Feature: Eligibility Section
     And click on Proceed button
     Then verify eligibility questions are displayed
 
-  @AC2 @AC3
+  @AC2 @AC3 @AC4 @AC5
   Scenario:Validate eligiblity questions by answering Yes or No
     Given BGP login page is displayed
     When user login to BGP

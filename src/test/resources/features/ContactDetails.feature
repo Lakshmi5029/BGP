@@ -1,4 +1,4 @@
-@contactDetails @cogizant
+@contactDetails @cognizant
 Feature: Eligibility Section
 
   Background:
@@ -7,7 +7,7 @@ Feature: Eligibility Section
       | User_Name | public     |
       | Password  | Let$BeC001 |
 
-  @contact
+  @contact @AC1 @AC2 @AC3 @AC4 @AC5
   Scenario:Validate Contact Details in MRA
     Given BGP login page is displayed
     When user login to BGP
